@@ -25,7 +25,9 @@ const CardProduct = ({ image, title, gems, onClick }: ICardProductType) => {
               ? title
               : `${title.slice(0, limitTitle)}...`}
           </S.Title>
-          <S.SubTitle>{gems} {Number(gems) > 1 ?"jóias" : "jóia"}</S.SubTitle>
+          <S.SubTitle>
+            {gems} {Number(gems) > 1 ? "jóias" : "jóia"}
+          </S.SubTitle>
         </S.DivTitle>
         <S.DivButtonProps>
           <ButtonProps
