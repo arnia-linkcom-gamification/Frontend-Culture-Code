@@ -22,7 +22,7 @@ export const DivTitle = styled.div`
   gap: 5px;
 
   @media screen and (max-width: 728px) {
-    margin: 0 0 0 0;
+    margin: 1% 0 0 0;
   }
 `;
 export const DivImg = styled.div`
